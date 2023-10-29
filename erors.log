@@ -1,0 +1,641 @@
+2023-10-27 15:44:45.855002
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 68, in <module>
+	    game = App()
+	  File "D:\Yandex_Project\main.py", line 12, in __init__
+	    self.initUI()
+	  File "D:\Yandex_Project\main.py", line 50, in initUI
+	    p = 3 / 0
+	ZeroDivisionError: division by zero
+2023-10-27 15:45:01.388225
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 68, in <module>
+	    game = App()
+	  File "D:\Yandex_Project\main.py", line 12, in __init__
+	    self.initUI()
+	  File "D:\Yandex_Project\main.py", line 50, in initUI
+	    p = 3 / 0
+	ZeroDivisionError: division by zero
+2023-10-27 15:45:02.719135
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 68, in <module>
+	    game = App()
+	  File "D:\Yandex_Project\main.py", line 12, in __init__
+	    self.initUI()
+	  File "D:\Yandex_Project\main.py", line 50, in initUI
+	    p = 3 / 0
+	ZeroDivisionError: division by zero
+2023-10-27 15:46:36.952443
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 50, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 25, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 19, in __init__
+	    self.create_connection("lvls.db")
+	TypeError: Game.create_connection() takes 1 positional argument but 2 were given
+2023-10-27 15:50:03.334741
+Lose connection to DB:unable to open database file2023-10-27 17:18:09.487879
+	Lose connection to DB:no such column: name2023-10-27 17:36:25.757509
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_connection()
+	TypeError: create_connection() missing 1 required positional argument: 'path'
+2023-10-27 17:36:51.212573
+	Traceback (most recent call last):
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 3240, in open
+	    fp.seek(0)
+	AttributeError: 'list' object has no attribute 'seek'
+	
+	During handling of the above exception, another exception occurred:
+	
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 40, in create_pazzle
+	    with Image.open(filename) as img:
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 3242, in open
+	    fp = io.BytesIO(fp.read())
+	AttributeError: 'list' object has no attribute 'read'
+2023-10-27 17:38:08.534695
+	Traceback (most recent call last):
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 3240, in open
+	    fp.seek(0)
+	AttributeError: 'NoneType' object has no attribute 'seek'
+	
+	During handling of the above exception, another exception occurred:
+	
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 40, in create_pazzle
+	    with Image.open(filename) as img:
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 3242, in open
+	    fp = io.BytesIO(fp.read())
+	AttributeError: 'NoneType' object has no attribute 'read'
+2023-10-27 17:38:13.063254
+	Traceback (most recent call last):
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 3240, in open
+	    fp.seek(0)
+	AttributeError: 'NoneType' object has no attribute 'seek'
+	
+	During handling of the above exception, another exception occurred:
+	
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 40, in create_pazzle
+	    with Image.open(filename) as img:
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 3242, in open
+	    fp = io.BytesIO(fp.read())
+	AttributeError: 'NoneType' object has no attribute 'read'
+2023-10-27 17:39:36.585885
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 39, in create_pazzle
+	    filename = self.cur.execute("SELECT * FROM lvls WHERE num = 1")[1] + "jpg"
+	TypeError: 'sqlite3.Cursor' object is not subscriptable
+2023-10-27 17:40:07.250262
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 39, in create_pazzle
+	    filename = self.cur.execute("SELECT * FROM lvls WHERE num = 1").fetchall()[1] + "jpg"
+	IndexError: list index out of range
+2023-10-27 17:46:01.834407
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 39, in create_pazzle
+	    filename = self.cur.execute("SELECT * FROM lvls WHERE num = 1").fetchall()[1] + "jpg"
+	IndexError: list index out of range
+2023-10-27 17:46:22.940760
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 39, in create_pazzle
+	    filename = self.cur.execute("SELECT * FROM lvls WHERE num = 1").fetchall()[1] + "jpg"
+	IndexError: list index out of range
+2023-10-27 17:48:23.885020
+	Traceback (most recent call last):
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 3240, in open
+	    fp.seek(0)
+	AttributeError: 'list' object has no attribute 'seek'
+	
+	During handling of the above exception, another exception occurred:
+	
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 41, in create_pazzle
+	    with Image.open(filename) as img:
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 3242, in open
+	    fp = io.BytesIO(fp.read())
+	AttributeError: 'list' object has no attribute 'read'
+2023-10-27 17:49:16.547733
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 41, in create_pazzle
+	    with Image.open(filename) as img:
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 3236, in open
+	    fp = builtins.open(filename, "rb")
+	FileNotFoundError: [Errno 2] No such file or directory: 'pictures/01jpg'
+2023-10-27 17:49:29.628724
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 41, in create_pazzle
+	    with Image.open(filename) as img:
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 3236, in open
+	    fp = builtins.open(filename, "rb")
+	FileNotFoundError: [Errno 2] No such file or directory: 'pictures/01.jpg'
+2023-10-27 18:05:25.063521
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 44, in create_pazzle
+	    img.crop(i.split(', ')).show()
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 1224, in crop
+	    raise ValueError(msg)
+	ValueError: Coordinate 'right' is less than 'left'
+2023-10-27 18:05:33.167896
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 44, in create_pazzle
+	    img.crop(i.split(', ')).show()
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 1224, in crop
+	    raise ValueError(msg)
+	ValueError: Coordinate 'right' is less than 'left'
+2023-10-27 18:06:28.237001
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 44, in create_pazzle
+	    img.crop(i.split(', ')).show()
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 1230, in crop
+	    return self._new(self._crop(self.im, box))
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 1244, in _crop
+	    x0, y0, x1, y1 = map(int, map(round, box))
+	TypeError: type str doesn't define __round__ method
+2023-10-27 18:07:54.344279
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 44, in create_pazzle
+	    img.crop(*[int(i_k) for i_k in i.split(', ')[0]]).show()
+	TypeError: crop() takes from 1 to 2 positional arguments but 3 were given
+2023-10-27 18:08:37.898627
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 44, in create_pazzle
+	    img.crop([int(i_k) for i_k in i.split(', ')[0]]).show()
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 1222, in crop
+	    if box[2] < box[0]:
+	IndexError: list index out of range
+2023-10-27 18:09:04.377932
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 45, in create_pazzle
+	    img.crop([int(i_k) for i_k in i.split(', ')[0]]).show()
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 1222, in crop
+	    if box[2] < box[0]:
+	IndexError: list index out of range
+2023-10-27 18:09:58.990796
+	Traceback (most recent call last):
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\ImageFile.py", line 515, in _save
+	    fh = fp.fileno()
+	AttributeError: '_idat' object has no attribute 'fileno'
+	
+	During handling of the above exception, another exception occurred:
+	
+	Traceback (most recent call last):
+	  File "D:/Yandex_Project/main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:/Yandex_Project/main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 20, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 45, in create_pazzle
+	    img.crop([int(i_k) for i_k in i.split(', ')]).show()
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 2486, in show
+	    _show(self, title=title)
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 3524, in _show
+	    ImageShow.show(image, **options)
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\ImageShow.py", line 62, in show
+	    if viewer.show(image, title=title, **options):
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\ImageShow.py", line 86, in show
+	    return self.show_image(image, **options)
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\ImageShow.py", line 112, in show_image
+	    return self.show_file(self.save_image(image), **options)
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\ImageShow.py", line 108, in save_image
+	    return image._dump(format=self.get_format(image), **self.options)
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 632, in _dump
+	    self.save(filename, format, **options)
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\Image.py", line 2432, in save
+	    save_handler(self, fp, filename)
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\PngImagePlugin.py", line 1227, in _save_all
+	    _save(im, fp, filename, save_all=True)
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\PngImagePlugin.py", line 1405, in _save
+	    _write_multiple_frames(im, fp, chunk, rawmode, default_image, append_images)
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\PngImagePlugin.py", line 1211, in _write_multiple_frames
+	    ImageFile._save(
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\ImageFile.py", line 519, in _save
+	    _encode_tile(im, fp, tile, bufsize, None, exc)
+	  File "C:\Users\1\PycharmProjects\pythonProject4\venv\lib\site-packages\PIL\ImageFile.py", line 530, in _encode_tile
+	    encoder.setimage(im.im, b)
+	SystemError: tile cannot extend outside image
+2023-10-28 15:44:38.236389
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 44, in create_pazzle
+	    self.pazle_layout.addWidget(QLabel)
+	TypeError: arguments did not match any overloaded call:
+	  addWidget(self, w: QWidget): argument 1 has unexpected type 'sip.wrappertype'
+	  addWidget(self, a0: QWidget, row: int, column: int, alignment: Union[Qt.Alignment, Qt.AlignmentFlag] = Qt.Alignment()): argument 1 has unexpected type 'sip.wrappertype'
+	  addWidget(self, a0: QWidget, row: int, column: int, rowSpan: int, columnSpan: int, alignment: Union[Qt.Alignment, Qt.AlignmentFlag] = Qt.Alignment()): argument 1 has unexpected type 'sip.wrappertype'
+2023-10-28 16:04:07.620290
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 45, in create_pazzle
+	    self.pazle_list.append(QLabel(self, "IMAGE"))
+	TypeError: arguments did not match any overloaded call:
+	  QLabel(parent: typing.Optional[QWidget] = None, flags: Union[Qt.WindowFlags, Qt.WindowType] = Qt.WindowFlags()): argument 2 has unexpected type 'str'
+	  QLabel(text: str, parent: typing.Optional[QWidget] = None, flags: Union[Qt.WindowFlags, Qt.WindowType] = Qt.WindowFlags()): argument 1 has unexpected type 'Game'
+2023-10-28 16:04:23.777899
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 45, in create_pazzle
+	    self.pazle_list.append(QLabel(self, "IMAGE"))
+	TypeError: arguments did not match any overloaded call:
+	  QLabel(parent: typing.Optional[QWidget] = None, flags: Union[Qt.WindowFlags, Qt.WindowType] = Qt.WindowFlags()): argument 2 has unexpected type 'str'
+	  QLabel(text: str, parent: typing.Optional[QWidget] = None, flags: Union[Qt.WindowFlags, Qt.WindowType] = Qt.WindowFlags()): argument 1 has unexpected type 'Game'
+2023-10-28 16:04:48.467467
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 46, in create_pazzle
+	    self.pazle_list[s].setGeometry(self.pazle_list[:1], self.pazle_list[0] - self.pazle_list[2],
+	IndexError: list index out of range
+2023-10-28 16:05:30.547077
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 46, in create_pazzle
+	    self.pazle_list[s].setGeometry(self.pazle_list[:1], self.pazle_list[0] - self.pazle_list[2],
+	IndexError: list index out of range
+2023-10-28 16:05:33.263982
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 46, in create_pazzle
+	    self.pazle_list[s].setGeometry(self.pazle_list[:1], self.pazle_list[0] - self.pazle_list[2],
+	IndexError: list index out of range
+2023-10-28 16:05:56.395944
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 46, in create_pazzle
+	    self.pazle_list[0].setGeometry(self.pazle_list[:1], self.pazle_list[0] - self.pazle_list[2],
+	IndexError: list index out of range
+2023-10-28 16:06:59.511402
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 46, in create_pazzle
+	    self.pazle_list[s].setGeometry(*self.pazle_list[:1], self.pazle_list[0] - self.pazle_list[2],
+	IndexError: list index out of range
+2023-10-28 16:08:17.869802
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 46, in create_pazzle
+	    self.pazle_list[s].setGeometry(*i[:1], i[0] - i[2],
+	TypeError: unsupported operand type(s) for -: 'str' and 'str'
+2023-10-28 16:10:48.576960
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 46, in create_pazzle
+	    self.pazle_list[s].setGeometry(*i1[:1], i1[0] - i1[2], i1[1] - i1[3])
+	TypeError: arguments did not match any overloaded call:
+	  setGeometry(self, a0: QRect): argument 1 has unexpected type 'int'
+	  setGeometry(self, ax: int, ay: int, aw: int, ah: int): not enough arguments
+2023-10-28 16:11:43.047931
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 46, in create_pazzle
+	    self.pazle_list[s].setGeometry(*i1[:1], i1[0] - i1[2], i1[1] - i1[3])
+	TypeError: arguments did not match any overloaded call:
+	  setGeometry(self, a0: QRect): argument 1 has unexpected type 'int'
+	  setGeometry(self, ax: int, ay: int, aw: int, ah: int): not enough arguments
+2023-10-28 16:12:31.365620
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 47, in create_pazzle
+	    self.pazle_list[s].setGeometry(*i1[:1], i1[0] - i1[2], i1[1] - i1[3])
+	TypeError: arguments did not match any overloaded call:
+	  setGeometry(self, a0: QRect): argument 1 has unexpected type 'int'
+	  setGeometry(self, ax: int, ay: int, aw: int, ah: int): not enough arguments
+2023-10-28 16:13:24.731328
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 47, in create_pazzle
+	    self.pazle_list[s].setGeometry(*i1[:1], i1[0] - i1[2], i1[1] - i1[3])
+	TypeError: arguments did not match any overloaded call:
+	  setGeometry(self, a0: QRect): argument 1 has unexpected type 'int'
+	  setGeometry(self, ax: int, ay: int, aw: int, ah: int): not enough arguments
+2023-10-28 16:13:40.374912
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 47, in create_pazzle
+	    self.pazle_list[s].setGeometry(*i1[:1], i1[0] - i1[2], i1[1] - i1[3])
+	TypeError: arguments did not match any overloaded call:
+	  setGeometry(self, a0: QRect): argument 1 has unexpected type 'int'
+	  setGeometry(self, ax: int, ay: int, aw: int, ah: int): not enough arguments
+2023-10-28 16:15:37.114282
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 47, in create_pazzle
+	    self.pazle_list[s].setGeometry(*i1[:1], abs(i1[0] - i1[2]), abs(i1[1] - i1[3]))
+	TypeError: arguments did not match any overloaded call:
+	  setGeometry(self, a0: QRect): argument 1 has unexpected type 'int'
+	  setGeometry(self, ax: int, ay: int, aw: int, ah: int): not enough arguments
+2023-10-28 16:18:48.781929
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 47, in create_pazzle
+	    self.pazle_list[s].setGeometry(self, *i1[:1], abs(i1[0] - i1[2]), abs(i1[1] - i1[3]))
+	TypeError: arguments did not match any overloaded call:
+	  setGeometry(self, a0: QRect): argument 1 has unexpected type 'Game'
+	  setGeometry(self, ax: int, ay: int, aw: int, ah: int): argument 1 has unexpected type 'Game'
+2023-10-28 16:21:20.329274
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 47, in create_pazzle
+	    self.pazle_list[s].setGeometry(self=self, ax=i1[0], ay=i1[1], aw=abs(i1[0] - i1[2]), ah=abs(i1[1] - i1[3]))
+	TypeError: setGeometry() takes no keyword arguments
+2023-10-28 16:22:04.218847
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 47, in create_pazzle
+	    self.pazle_list[s].setGeometry(self, ax=i1[0], ay=i1[1], aw=abs(i1[0] - i1[2]), ah=abs(i1[1] - i1[3]))
+	TypeError: setGeometry() takes no keyword arguments
+2023-10-28 16:22:12.395088
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 47, in create_pazzle
+	    self.pazle_list[s].setGeometry(ax=i1[0], ay=i1[1], aw=abs(i1[0] - i1[2]), ah=abs(i1[1] - i1[3]))
+	TypeError: setGeometry() takes no keyword arguments
+2023-10-28 16:23:25.789129
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 45, in create_pazzle
+	    self.pazle_list.append(QLabel(self).setGeometry(ax=i1[0], ay=i1[1], aw=abs(i1[0] - i1[2]), ah=abs(i1[1] - i1[3])))
+	TypeError: setGeometry() takes no keyword arguments
+2023-10-28 16:24:31.430690
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 47, in create_pazzle
+	    self.pazle_list[s].setText("12")
+	AttributeError: 'NoneType' object has no attribute 'setText'
+2023-10-28 16:24:55.807188
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 45, in create_pazzle
+	    self.pazle_list.append(QLabel(self).setGeometry(i1[0], i1[1], abs(i1[0] - i1[2]), abs(i1[1] - i1[3]))).setText("o")
+	AttributeError: 'NoneType' object has no attribute 'setText'
+2023-10-28 16:26:06.216685
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 46, in create_pazzle
+	    i_im.setText("23")
+	AttributeError: 'NoneType' object has no attribute 'setText'
+2023-10-28 16:47:09.206111
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 48, in create_pazzle
+	    i_im.setPixmap(self.pix)
+	AttributeError: 'NoneType' object has no attribute 'setPixmap'
+2023-10-28 16:59:24.893797
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 52, in create_pazzle
+	    img.crop([int(i_k) for i_k in i.split(', ')])
+	  File "C:\Users\Алексей\AppData\Roaming\Python\Python310\site-packages\PIL\Image.py", line 1204, in crop
+	    raise ValueError(msg)
+	ValueError: Coordinate 'lower' is less than 'upper'
+2023-10-28 17:03:05.908627
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 44, in create_pazzle
+	    i1 = [int(i_k) for i_k in i.split(', ')]
+	  File "D:\Yandex_Project\game.py", line 44, in <listcomp>
+	    i1 = [int(i_k) for i_k in i.split(', ')]
+	ValueError: invalid literal for int() with base 10: '480 : 0'
+2023-10-28 17:13:39.382941
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project\game.py", line 45, in create_pazzle
+	    self.pix = QtGui.QPixmap(img.crop([int(i_k) for i_k in i.split(', ')]))
+	TypeError: QPixmap(): argument 1 has unexpected type 'Image'
