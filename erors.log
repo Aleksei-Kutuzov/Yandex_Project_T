@@ -639,3 +639,1260 @@ Lose connection to DB:unable to open database file2023-10-27 17:18:09.487879
 	  File "D:\Yandex_Project\game.py", line 45, in create_pazzle
 	    self.pix = QtGui.QPixmap(img.crop([int(i_k) for i_k in i.split(', ')]))
 	TypeError: QPixmap(): argument 1 has unexpected type 'Image'
+2023-10-29 17:17:10.326095
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 45, in create_pazzle
+	    self.pix = QtGui.QPixmap(img.crop([int(i_k) for i_k in i.split(', ')]))
+	TypeError: QPixmap(): argument 1 has unexpected type 'Image'
+2023-10-29 17:18:27.866096
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 49, in create_pazzle
+	    i_im.setPixmap(self.pix)
+	TypeError: setPixmap(self, a0: QPixmap): argument 1 has unexpected type 'Image'
+2023-10-29 17:42:35.548995
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 45, in create_pazzle
+	    self.pix = QtGui.QPixmap(QImage(ImageQt(img.crop([int(i_k) for i_k in i.split(', ')]))))
+	NameError: name 'ImageQt' is not defined
+2023-10-29 17:43:21.562553
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 48, in create_pazzle
+	    i_im.setIcon([int(i_k) for i_k in i.split(', ')])
+	TypeError: setIcon(self, icon: QIcon): argument 1 has unexpected type 'list'
+2023-10-29 17:44:19.933287
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 48, in create_pazzle
+	    i_im.setIcon(img.crop([int(i_k) for i_k in i.split(', ')]))
+	TypeError: setIcon(self, icon: QIcon): argument 1 has unexpected type 'Image'
+2023-10-29 17:56:47.974776
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 63, in create_pazzle
+	    i_im.setIcon(img.crop(self.pil_to_qpixmap([int(i_k) for i_k in i.split(', ')])))
+	  File "D:\Yandex_Project_T\game.py", line 28, in pil_to_qpixmap
+	    height, width, _ = image_np.shape
+	ValueError: not enough values to unpack (expected 3, got 1)
+2023-10-29 17:57:06.498281
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 63, in create_pazzle
+	    i_im.setIcon(img.crop(self.pil_to_qpixmap([int(i_k) for i_k in i.split(', ')])))
+	  File "D:\Yandex_Project_T\game.py", line 28, in pil_to_qpixmap
+	    height, width, _ = image_np.shape
+	ValueError: not enough values to unpack (expected 3, got 1)
+2023-10-29 17:57:08.480841
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 63, in create_pazzle
+	    i_im.setIcon(img.crop(self.pil_to_qpixmap([int(i_k) for i_k in i.split(', ')])))
+	  File "D:\Yandex_Project_T\game.py", line 28, in pil_to_qpixmap
+	    height, width, _ = image_np.shape
+	ValueError: not enough values to unpack (expected 3, got 1)
+2023-10-29 18:06:59.490620
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 68, in <module>
+	    sys.exit(app.exec())
+	KeyboardInterrupt
+2023-10-29 18:07:43.622710
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 54, in create_pazzle
+	    i_im.setIcon(img.crop(self.pil_to_qpixmap([int(i_k) for i_k in i.split(', ')])))
+	AttributeError: 'Game' object has no attribute 'pil_to_qpixmap'
+2023-10-29 18:08:34.617222
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 54, in create_pazzle
+	    i_im.setIcon(self.pil_to_qPixmap(img.crop([int(i_k) for i_k in i.split(', ')])))
+	TypeError: Game.pil_to_qPixmap() takes 1 positional argument but 2 were given
+2023-10-29 18:09:03.292547
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 54, in create_pazzle
+	    i_im.setIcon(self.pil_to_qPixmap(img.crop([int(i_k) for i_k in i.split(', ')])))
+	TypeError: setIcon(self, icon: QIcon): argument 1 has unexpected type 'QPixmap'
+2023-10-29 18:12:20.983977
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 57, in create_pazzle
+	    i_im.setIcon()
+	TypeError: setIcon(self, icon: QIcon): not enough arguments
+2023-10-29 18:12:41.600523
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 57, in create_pazzle
+	    i_im.setIcon()
+	TypeError: setIcon(self, icon: QIcon): not enough arguments
+2023-10-29 18:13:02.848708
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 59, in create_pazzle
+	    i_im.setPixmap(self.pix)
+	AttributeError: 'QPushButton' object has no attribute 'setPixmap'
+2023-10-29 19:57:37.434207
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 55, in <lambda>
+	    i_im.clicked.connect(lambda self: print(sender().v))
+	NameError: name 'sender' is not defined
+2023-10-29 20:00:26.558319
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 55, in <lambda>
+	    i_im.clicked.connect(lambda self: print(self.sender().v))
+	AttributeError: 'bool' object has no attribute 'sender'
+2023-10-29 20:02:11.269970
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 58, in create_pazzle
+	    i_im.clicked.connect(self.pazle_fragment())
+	  File "D:\Yandex_Project_T\game.py", line 44, in pazle_fragment
+	    print(self.sender().v)
+	AttributeError: 'QPushButton' object has no attribute 'v'
+2023-10-29 20:05:26.138605
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 22, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 59, in create_pazzle
+	    i_im.clicked.connect(self.pazle_fragment())
+	  File "D:\Yandex_Project_T\game.py", line 45, in pazle_fragment
+	    print(self.sender().v)
+	AttributeError: 'QPushButton' object has no attribute 'v'
+2023-10-29 20:05:57.259084
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 22, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 59, in create_pazzle
+	    i_im.clicked.connect(self.pazle_fragment())
+	  File "D:\Yandex_Project_T\game.py", line 45, in pazle_fragment
+	    print(self.sender().val)
+	AttributeError: 'QPushButton' object has no attribute 'val'
+2023-10-29 20:25:01.334830
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 58, in create_pazzle
+	    i_im.clicked.connect(self.pazle_fragment())
+	  File "D:\Yandex_Project_T\game.py", line 44, in pazle_fragment
+	    print(self.sender().v)
+	AttributeError: 'QPushButton' object has no attribute 'v'
+2023-10-29 20:25:27.768233
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 58, in create_pazzle
+	    i_im.clicked.connect(self.pazle_fragment())
+	  File "D:\Yandex_Project_T\game.py", line 44, in pazle_fragment
+	    print(self.sender().val)
+	AttributeError: 'QPushButton' object has no attribute 'val'
+2023-10-29 20:26:52.224685
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 58, in create_pazzle
+	    self.i_im.clicked.connect(self.pazle_fragment())
+	  File "D:\Yandex_Project_T\game.py", line 44, in pazle_fragment
+	    print(self.sender().val)
+	AttributeError: 'QPushButton' object has no attribute 'val'
+2023-10-29 20:32:17.584987
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 57, in create_pazzle
+	    i_im.clicked.connect(self.pazle_fragment())
+	  File "D:\Yandex_Project_T\game.py", line 44, in pazle_fragment
+	    print(self.sender().val)
+	AttributeError: 'QPushButton' object has no attribute 'val'
+2023-10-29 20:33:31.755512
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 57, in create_pazzle
+	    i_im.clicked.connect(self.pazle_fragment())
+	  File "D:\Yandex_Project_T\game.py", line 44, in pazle_fragment
+	    print(self.sender().val)
+	AttributeError: 'QPushButton' object has no attribute 'val'
+2023-10-30 12:39:20.218287
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 57, in create_pazzle
+	    i_im.clicked.connect(self.pazle_fragment())
+	TypeError: argument 1 has unexpected type 'NoneType'
+2023-10-30 12:39:51.123553
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 65, in create_pazzle
+	    self.pazle_list[s].setText(s)
+	TypeError: setText(self, text: str): argument 1 has unexpected type 'int'
+2023-10-30 12:47:37.160585
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 53, in create_pazzle
+	    i1 = [int(i_k) for i_k in i.split(', ')]
+	  File "D:\Yandex_Project_T\game.py", line 53, in <listcomp>
+	    i1 = [int(i_k) for i_k in i.split(', ')]
+	ValueError: invalid literal for int() with base 10: '0 1500'
+2023-10-30 12:47:56.434747
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 59, in create_pazzle
+	    pixmap = self.pil_to_qPixmap(img.crop([int(i_k) for i_k in i.split(', ')]))
+	  File "C:\Users\Алексей\AppData\Roaming\Python\Python310\site-packages\PIL\Image.py", line 1208, in crop
+	    raise ValueError(msg)
+	ValueError: Coordinate 'right' is less than 'left'
+2023-10-30 12:48:57.835803
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 59, in create_pazzle
+	    pixmap = self.pil_to_qPixmap(img.crop([int(i_k) for i_k in i.split(', ')]))
+	  File "C:\Users\Алексей\AppData\Roaming\Python\Python310\site-packages\PIL\Image.py", line 1208, in crop
+	    raise ValueError(msg)
+	ValueError: Coordinate 'right' is less than 'left'
+2023-10-30 12:54:44.034393
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 50, in create_pazzle
+	    self.window().setGeometry(500, 500, img.size)
+	TypeError: arguments did not match any overloaded call:
+	  setGeometry(self, a0: QRect): argument 1 has unexpected type 'int'
+	  setGeometry(self, ax: int, ay: int, aw: int, ah: int): argument 3 has unexpected type 'tuple'
+2023-10-30 16:34:04.256071
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:04.289110
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:05.593806
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:06.593050
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:06.914224
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:09.297490
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:09.985209
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:10.457911
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:10.706192
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:10.921182
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:11.281029
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:11.753803
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:12.089569
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:12.425673
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:12.889372
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:34:13.538257
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 32, in create_connection
+	    connection = sqlite3.connect(path)
+	TypeError: expected str, bytes or os.PathLike object, not QEnterEvent
+2023-10-30 16:35:09.672072
+	TypeError: Game.pazle_fragment() takes 1 positional argument but 2 were given
+2023-10-30 16:35:10.778566
+	TypeError: Game.pazle_fragment() takes 1 positional argument but 2 were given
+2023-10-30 16:35:11.442313
+	TypeError: Game.pazle_fragment() takes 1 positional argument but 2 were given
+2023-10-30 16:35:12.018273
+	TypeError: Game.pazle_fragment() takes 1 positional argument but 2 were given
+2023-10-30 16:35:12.339151
+	TypeError: Game.pazle_fragment() takes 1 positional argument but 2 were given
+2023-10-30 16:35:12.530782
+	TypeError: Game.pazle_fragment() takes 1 positional argument but 2 were given
+2023-10-30 16:35:12.610632
+	TypeError: Game.pazle_fragment() takes 1 positional argument but 2 were given
+2023-10-30 16:35:12.787318
+	TypeError: Game.pazle_fragment() takes 1 positional argument but 2 were given
+2023-10-30 16:35:12.987050
+	TypeError: Game.pazle_fragment() takes 1 positional argument but 2 were given
+2023-10-30 16:35:13.138996
+	TypeError: Game.pazle_fragment() takes 1 positional argument but 2 were given
+2023-10-30 16:35:13.282400
+	TypeError: Game.pazle_fragment() takes 1 positional argument but 2 were given
+2023-10-30 16:35:13.442370
+	TypeError: Game.pazle_fragment() takes 1 positional argument but 2 were given
+2023-10-30 16:35:13.538803
+	TypeError: Game.pazle_fragment() takes 1 positional argument but 2 were given
+2023-10-30 16:35:38.564094
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in pazle_fragment
+	    print(self.sender().ranges)
+	AttributeError: 'NoneType' object has no attribute 'ranges'
+2023-10-30 16:35:39.067864
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in pazle_fragment
+	    print(self.sender().ranges)
+	AttributeError: 'NoneType' object has no attribute 'ranges'
+2023-10-30 16:35:39.771034
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in pazle_fragment
+	    print(self.sender().ranges)
+	AttributeError: 'NoneType' object has no attribute 'ranges'
+2023-10-30 16:35:41.595667
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in pazle_fragment
+	    print(self.sender().ranges)
+	AttributeError: 'NoneType' object has no attribute 'ranges'
+2023-10-30 16:35:42.411485
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in pazle_fragment
+	    print(self.sender().ranges)
+	AttributeError: 'NoneType' object has no attribute 'ranges'
+2023-10-30 16:35:51.492085
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in pazle_fragment
+	    print(self.sender().ranges)
+	AttributeError: 'NoneType' object has no attribute 'ranges'
+2023-10-30 16:43:42.787608
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.sender())
+	AttributeError: 'QEnterEvent' object has no attribute 'sender'
+2023-10-30 16:43:44.057315
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.sender())
+	AttributeError: 'QEnterEvent' object has no attribute 'sender'
+2023-10-30 16:43:44.780781
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.sender())
+	AttributeError: 'QEnterEvent' object has no attribute 'sender'
+2023-10-30 16:43:45.152524
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.sender())
+	AttributeError: 'QEnterEvent' object has no attribute 'sender'
+2023-10-30 16:43:45.525096
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.sender())
+	AttributeError: 'QEnterEvent' object has no attribute 'sender'
+2023-10-30 16:43:45.995561
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.sender())
+	AttributeError: 'QEnterEvent' object has no attribute 'sender'
+2023-10-30 16:43:46.346713
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.sender())
+	AttributeError: 'QEnterEvent' object has no attribute 'sender'
+2023-10-30 16:45:30.269251
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.source())
+	AttributeError: 'QEnterEvent' object has no attribute 'source'
+2023-10-30 16:45:31.356118
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.source())
+	AttributeError: 'QEnterEvent' object has no attribute 'source'
+2023-10-30 16:45:31.833476
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.source())
+	AttributeError: 'QEnterEvent' object has no attribute 'source'
+2023-10-30 16:45:32.149711
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.source())
+	AttributeError: 'QEnterEvent' object has no attribute 'source'
+2023-10-30 16:47:32.677833
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.source(), self.sender())
+	AttributeError: 'QEnterEvent' object has no attribute 'source'
+2023-10-30 16:47:33.969328
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.source(), self.sender())
+	AttributeError: 'QEnterEvent' object has no attribute 'source'
+2023-10-30 16:47:34.672245
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.source(), self.sender())
+	AttributeError: 'QEnterEvent' object has no attribute 'source'
+2023-10-30 16:47:35.170239
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.source(), self.sender())
+	AttributeError: 'QEnterEvent' object has no attribute 'source'
+2023-10-30 16:47:35.570468
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 44, in enter_event_for_fragment
+	    print(self, a0.source(), self.sender())
+	AttributeError: 'QEnterEvent' object has no attribute 'source'
+2023-10-30 16:50:21.981548
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 21, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 72, in create_pazzle
+	    i_im.mouse_entered.connect(self.enter_event_for_fragment)
+	AttributeError: 'QPushButton' object has no attribute 'mouse_entered'
+2023-10-30 16:55:00.245815
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:01.165199
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:01.741045
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:02.260764
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:02.836839
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:03.293066
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:03.988677
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:04.381341
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:04.866993
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:04.943241
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:05.308834
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:05.660150
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:05.729822
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:05.878676
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:06.073658
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:06.242535
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:06.389524
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:06.537268
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:06.579964
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:06.671066
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:06.699336
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:06.832146
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:06.980158
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:07.113448
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:07.141899
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:07.232264
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:07.259777
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:07.422422
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:07.555272
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:07.585682
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:07.696265
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:07.731578
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:07.822652
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:07.851061
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:08.004386
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:08.159325
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:08.194002
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:08.327811
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:08.700424
+	TypeError: Game.create_pazzle.<locals>.<lambda>() takes 0 positional arguments but 1 was given
+2023-10-30 16:55:17.300569
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(copy.copy(i_im))
+	  File "C:\Program Files\Python310\lib\copy.py", line 92, in copy
+	    rv = reductor(4)
+	TypeError: cannot pickle 'QPushButton' object
+2023-10-30 16:55:17.955594
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(copy.copy(i_im))
+	  File "C:\Program Files\Python310\lib\copy.py", line 92, in copy
+	    rv = reductor(4)
+	TypeError: cannot pickle 'QPushButton' object
+2023-10-30 16:55:18.159344
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(copy.copy(i_im))
+	  File "C:\Program Files\Python310\lib\copy.py", line 92, in copy
+	    rv = reductor(4)
+	TypeError: cannot pickle 'QPushButton' object
+2023-10-30 16:55:18.404659
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(copy.copy(i_im))
+	  File "C:\Program Files\Python310\lib\copy.py", line 92, in copy
+	    rv = reductor(4)
+	TypeError: cannot pickle 'QPushButton' object
+2023-10-30 16:55:18.643902
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(copy.copy(i_im))
+	  File "C:\Program Files\Python310\lib\copy.py", line 92, in copy
+	    rv = reductor(4)
+	TypeError: cannot pickle 'QPushButton' object
+2023-10-30 16:55:18.854269
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(copy.copy(i_im))
+	  File "C:\Program Files\Python310\lib\copy.py", line 92, in copy
+	    rv = reductor(4)
+	TypeError: cannot pickle 'QPushButton' object
+2023-10-30 16:55:19.149024
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(copy.copy(i_im))
+	  File "C:\Program Files\Python310\lib\copy.py", line 92, in copy
+	    rv = reductor(4)
+	TypeError: cannot pickle 'QPushButton' object
+2023-10-30 16:55:43.503507
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(copy.copy(i_im))
+	  File "C:\Program Files\Python310\lib\copy.py", line 92, in copy
+	    rv = reductor(4)
+	TypeError: cannot pickle 'QPushButton' object
+2023-10-30 16:55:44.127441
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(copy.copy(i_im))
+	  File "C:\Program Files\Python310\lib\copy.py", line 92, in copy
+	    rv = reductor(4)
+	TypeError: cannot pickle 'QPushButton' object
+2023-10-30 16:58:20.160873
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:21.739959
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:23.043487
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:23.074715
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:23.332095
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:23.700428
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:24.787599
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:25.387657
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:25.532549
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:25.731185
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:26.075551
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:26.515256
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:27.235552
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:27.395481
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:27.499595
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:27.699571
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:28.076449
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:28.283841
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:28.420019
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:28.531625
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:28.580056
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:28.748318
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:28.923562
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:28.963670
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:29.100378
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:31.347615
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:33.019484
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:34.739940
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:35.139585
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:35.508255
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:35.883242
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:36.236478
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:36.492042
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:36.619668
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:36.675403
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:36.939886
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:37.139667
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:37.211272
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:37.324007
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:37.516098
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:37.643627
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:37.691814
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:37.795631
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:37.891784
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:38.028011
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:38.076324
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:38.115874
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:38.284348
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:38.372185
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:38.404477
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:38.492902
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:38.547713
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:38.644643
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:38.672165
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:38.708049
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:38.771901
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:38.980185
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:39.011507
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:39.051816
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:39.235852
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:39.268246
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:39.297615
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:39.326713
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:39.404012
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:39.523934
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:39.644006
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:39.787696
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:39.900250
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:39.940301
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:40.044199
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:40.073991
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:40.179782
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:40.300269
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:40.355708
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:40.451983
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:40.588583
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:40.651461
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:40.683500
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:58:41.267907
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    i_im.enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:59:46.033341
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:59:47.220106
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:59:47.894750
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:59:47.929517
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:59:48.000621
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:59:48.407647
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:59:48.674520
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:59:48.737675
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:59:48.836026
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 16:59:49.130959
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 73, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 17:00:09.714526
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 74, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 17:00:11.542030
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 74, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 17:01:19.851147
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 74, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 17:01:21.119417
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 74, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 17:01:22.061093
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 74, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 17:01:22.369839
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 74, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 17:01:22.397569
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 74, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 17:01:22.587426
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 74, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 17:01:22.650465
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 74, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 17:01:52.900997
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 74, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 17:01:53.632562
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 74, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 17:01:54.073272
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 74, in <lambda>
+	    self.pazle_list[s].enterEvent = lambda x: self.enter_event_for_fragment(self.pazle_list[s])
+	IndexError: list index out of range
+2023-10-30 17:08:32.013549
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 46, in enter_event_for_fragment
+	    print(range(*i.ranges[:2]), range())
+	TypeError: range expected at least 1 argument, got 0
+2023-10-30 17:08:32.441988
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 46, in enter_event_for_fragment
+	    print(range(*i.ranges[:2]), range())
+	TypeError: range expected at least 1 argument, got 0
+2023-10-30 17:08:32.807196
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 46, in enter_event_for_fragment
+	    print(range(*i.ranges[:2]), range())
+	TypeError: range expected at least 1 argument, got 0
+2023-10-30 17:08:32.904670
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\game.py", line 46, in enter_event_for_fragment
+	    print(range(*i.ranges[:2]), range())
+	TypeError: range expected at least 1 argument, got 0
+2023-10-30 17:48:29.059744
+	Traceback (most recent call last):
+	  File "D:\Yandex_Project_T\main.py", line 48, in <lambda>
+	    self.buttons_lvl[(i_y, i_x)].clicked.connect(lambda: self.lvl_button_clicked())
+	  File "D:\Yandex_Project_T\main.py", line 23, in lvl_button_clicked
+	    self.GameApp = Game(int(btn.text().replace("LVL-", "")))
+	  File "D:\Yandex_Project_T\game.py", line 22, in __init__
+	    self.create_pazzle()
+	  File "D:\Yandex_Project_T\game.py", line 61, in create_pazzle
+	    self.pazle_group_box = QLayout()
+	TypeError: PyQt5.QtWidgets.QLayout represents a C++ abstract class and cannot be instantiated

@@ -10,4 +10,6 @@ from PyQt5.QtGui import *
 from PyQt5.QtCore import *
 import traceback
 import datetime
+import numpy as np
 from PIL import Image
+from PyQt5.QtGui import QImage, QPixmap
